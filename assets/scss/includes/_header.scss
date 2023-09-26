@@ -1,0 +1,64 @@
+.baner1{
+    background: url(/public/images/section\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    @include media-min-xl{
+        height: 100vh;
+    }
+}
+.logo{
+    width: 6.8rem;
+}
+.bg-red{
+    background-color: rgba(255,0,0,0.7);
+}
+.h-set{
+    height: 88.3vh;
+}
+.list-hover:hover{
+    background: transparent;
+    color: $clr-black !important;
+}
+.font-cinzel{
+    font-family: $font-cinzel;
+}
+.beauty{
+    @include media-min-xl{
+        border-bottom: solid;
+        border-left: solid;
+    }
+}
+.letter-space{
+    letter-spacing: 3px;
+}
+.natural-margin{
+    margin-top: 5.5rem;
+}
+// -----------------------------------ABOUT HEADER STYLE-----------------------------
+.about-baner1{
+    background: url(/public/images/section\ 1-min.jpg);
+    background-position: center;
+    background-size: cover;
+}
+// -----------------------------------SERVICE HEADER STYLE-----------------------------
+.service-baner1{
+    background: url(/public/images/service\ section\ 1.jpg);
+}
+// ---------------------------------PRICING HEADER STYLE-------------------------------
+.price-baner1{
+    background: url(/public/images/pricing\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+// --------------------------------PORTFOLIYO HEADER STYLE----------------------------
+.portfoliyo-baner1{
+    background: url(/public/images/Portfolio.jpg);
+    background-position: center;
+    background-size: cover;
+}
+// --------------------------------CONTACT HEADER STYLE---------------------------------
+.contact-baner1 {
+    background: url(/public/images/contact1.jpg);
+    background-position: center;
+    background-size: cover;
+}

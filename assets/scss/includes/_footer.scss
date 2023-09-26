@@ -1,0 +1,17 @@
+.baner7{
+    background: url(/public/images/section\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    .b-footer-top{
+        border-top: 1px solid $clr-white;
+    }
+    .foot-icon{
+        margin-left: 1rem;
+        @include media-min-lg{
+            margin-left: 3.8rem;    
+        }
+        @include media-min-xl{
+            margin-left: 7.5rem;
+        }
+    } 
+}

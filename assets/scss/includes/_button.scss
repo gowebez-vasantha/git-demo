@@ -1,0 +1,42 @@
+.bg-hover:hover{
+    background-color: black !important;
+    color: white;
+}
+.btn-black {
+    background-color: $clr-black;
+    color: $clr-white;
+    &:hover{
+        border: 2px solid $clr-black;
+        background-color: transparent;
+    }
+}
+.btn-color{
+    background-color: $button-red;
+    &:hover{
+        border: 2px solid $clr-white;
+        background: $clr-black;
+    }
+}
+.book-btn{
+    background-color: $circle-clr;
+    &:hover{
+        border: 2px solid $clr-white;
+        background: transparent;
+    }
+}
+.port-btn{
+    background-color:  $circle-clr;
+    border: 1px solid $clr-white;
+    &:hover{
+        background: transparent;
+        color:  $clr-white;
+    }
+}
+.port-btnzz{
+    border: 1px solid $clr-white;
+    background: transparent;
+    color:  $clr-white;
+    &:hover{
+        background-color:  $circle-clr; 
+    }
+}
